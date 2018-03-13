@@ -447,5 +447,5 @@ module.exports = (mongoose) => {
     this.fill.apply(this, args)
   }
 
-  module.exports = mongoose
+  return mongoose
 }
